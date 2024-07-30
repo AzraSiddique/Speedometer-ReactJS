@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: white;
+  font-style: italic;
+}
+
+.image {
+  width: 600px;
+  height: 500px;
+}
+
+.para-a {
+  font-size: 28px;
+  color: white;
+  font-weight: 500;
+}
+
+.para-b {
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.accelerateBtn {
+  background-color: #0b69ff;
+  color: white;
+  font-weight: 200;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.brakeBtn {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 200;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+}
